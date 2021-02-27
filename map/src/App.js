@@ -1,11 +1,11 @@
 import React from 'react';
-import Map from './Map/map'
+import StateContainer from './StateContainer/stateContainer.js';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Map />
+      <StateContainer />
     </div>
 
   );
